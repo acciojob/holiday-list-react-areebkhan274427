@@ -38,13 +38,13 @@ const App = () => {
   return (
     <div id="main">
                {/* Do not remove the main div */}
-               <ul>
+               <ol>
                 {
                   filteredArr.map((city,index)=>(
                     <li key={`location${index+1}`}>{city.name}</li>
                   ))
                 }
-               </ul>
+               </ol>
     </div>
   )
 }
